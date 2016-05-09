@@ -7,6 +7,7 @@ body{
 	font-family: Arial, Tahoma, sans-serif;
 	text-decoration: none;
 	line-height: 20px;
+	padding-top: 2px;
 }
 
 h1{
@@ -23,7 +24,15 @@ img{
  ul{
  	list-style-position: inside;
  }
- 
+
+.box0{
+	width: 480px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0px 0px 1px 2px gray;
+	-moz-box-shadow: 0px 0px 1px 2px gray;
+	box-shadow: 0px 0px 1px 2px gray;
+} 
+
 .box1,
 .box2,
 .box3{
@@ -31,7 +40,7 @@ img{
 }
 
 .box{
-	width: 450px;
+	width: 350px;
 	margin: 0 auto;
 	padding: 15px 15px;
 	text-align: left;
